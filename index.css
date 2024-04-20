@@ -1,0 +1,226 @@
+body{
+    background-color: #ffffff;
+    color: black;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #016306;
+    color: #000000;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar button
+{
+    padding: 1px 25px;
+    border:1px solid white; 
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #ffffff; 
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto 10px;
+}
+
+.navbar button:hover{
+    background-color: #014404;
+}
+
+.button-container{
+    height: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.user{
+    width: 30px; 
+    height: auto; 
+    margin-left: 75vh;
+}
+
+.navbar button:focus {
+    outline: none;
+}
+
+.Logo {
+    height: 60px;
+    margin-left: 20px;
+}
+
+header {
+    background-color: #026818;
+    padding: 1px;
+    text-align: right;
+    border-bottom: 5px solid rgb(0, 73, 0);
+}
+
+.pesquisa-container{
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+    justify-content: flex-end;
+}
+
+#campo-pesquisa{
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+#pesquisa{
+    width: 20px;
+    padding: 8px;
+    background-color: #f7f304;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+#pesquisa:hover{
+    background-color: #cfb102;
+}
+
+aside{
+    text-align: right;
+    background-color: #d6d6d6;
+    border-left: 5px solid rgb(0, 68, 0);
+    width: auto;
+    float: right;
+    height: 750vh;
+    flex: 1;
+    z-index: 0;
+    position: relative;
+}
+
+ aside ul{
+    list-style-type: none;
+    padding:0;
+    margin:30px;
+ }
+
+aside ul li{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+aside ul li a{
+ color: #000000; 
+ text-decoration: none; 
+ font-weight: bold;
+ font-size: 20px;
+
+}
+
+a:hover {
+    color: #146b02;
+}
+
+.container{
+    padding: 10px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    right: 500px;
+    position: center;
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    color:#000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+h2{
+    color:#014406
+}
+
+.button-more{
+    background-color: #0d6101; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-bottom: 140px;
+}
+
+.comp{   
+     height: 350px;
+}
+
+.eco{   
+     height: 340px;
+}
+
+.inter{   
+     height: 340px;
+}
+
+.suv{
+    height: 320px;
+}
+.exec{
+    height: 450px;
+}
+
+.sport{
+    height: 320px;
+}
+
+.tracao{  
+      height: 330px;
+}
+
+.pik{    
+    height: 330px;
+}
+
+.mnvan{   
+     height: 330px;
+}
+
+.van{   
+     height: 380px;
+}
+
+.fim {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    color: #e4e2e2;
+    text-align: center; /* Centraliza o texto */
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    list-style-type: none;
+}
+
+.fim li a{
+    color: #ffffff; 
+    font-style: bold;
+    }
+
+.fim li a:hover{
+    color: #037e13;
+}
